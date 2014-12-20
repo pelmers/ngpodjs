@@ -1,8 +1,11 @@
 {
   "name": "ngpodjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download today's National Geographic Photo of the Day",
   "main": "ngpod.js",
+  "bin": {
+      "ngpodjs": "./ngpod.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
