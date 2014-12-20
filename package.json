@@ -1,0 +1,24 @@
+{
+  "name": "ngpodjs",
+  "version": "1.0.0",
+  "description": "Download today's National Geographic Photo of the Day",
+  "main": "ngpod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelmers/ngpodjs.git"
+  },
+  "author": "Peter Elmers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelmers/ngpodjs/issues"
+  },
+  "homepage": "https://github.com/pelmers/ngpodjs",
+  "dependencies": {
+      "flagman": "latest",
+      "cheerio": "0.18.0",
+      "request": "2.51.0"
+  }
+}
